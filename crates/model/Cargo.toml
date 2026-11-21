@@ -9,8 +9,10 @@ description = "DeckCraft document model: presentations, masters, layouts, slides
 workspace = true
 
 [dependencies]
+craft-drawingml = { workspace = true }
 deckcraft-geom = { workspace = true }
 deckcraft-color = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
 thiserror = { workspace = true }
+unicode-segmentation = { workspace = true }
